@@ -20,6 +20,8 @@ node main.ts
 
 示例结果写入 `out/demo/solution.txt`。
 
+结果中小写 `u/d/l/r` 为走路，大写 `U/D/L/R` 为推箱子，方向分别是上、下、左、右。
+
 ## English
 
 A room-by-room Sokoban solver using push distance and state search to produce move sequences for single-door room layouts.
@@ -29,6 +31,8 @@ A room-by-room Sokoban solver using push distance and state search to produce mo
 Use Node.js 22.18 or newer. Under `MAKEFUN_INPUT_DIR`, provide XSB levels as `<level-id>/level.txt`, set `MAKEFUN_OUTPUT_DIR`, and run `node main.ts`.
 
 Try the included example on macOS or Linux with `MAKEFUN_INPUT_DIR=examples MAKEFUN_OUTPUT_DIR=out node main.ts`. The output is `out/demo/solution.txt`. For PowerShell, see the example above.
+
+In the solution, lowercase `u/d/l/r` are walks and uppercase `U/D/L/R` are pushes. Directions are up, down, left and right.
 
 [make.fun 赛事 / Original bounty](https://make.fun/bounty/sokoban-solver-01-run-20261121)
 
