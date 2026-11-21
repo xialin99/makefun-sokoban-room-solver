@@ -1,4 +1,4 @@
-# Roomwise Sokoban Solver
+# 分房间推箱子求解器 / Roomwise Sokoban Solver
 
 [中文](#中文) · [English](#english)
 
