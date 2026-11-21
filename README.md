@@ -1,0 +1,38 @@
+# Roomwise Sokoban Solver
+
+[中文](#中文) · [English](#english)
+
+## 中文
+
+面向独立房间推箱子关卡的求解器，用箱子到目标的距离和推数搜索，输出逐步移动记录。
+
+### 本地运行
+
+使用 Node.js 22.18 或更新版本。在 `MAKEFUN_INPUT_DIR` 下按 `<关卡名>/level.txt` 放置 XSB 关卡，设置 `MAKEFUN_OUTPUT_DIR` 后运行 `node main.ts`。
+
+PowerShell 示例
+
+```powershell
+$env:MAKEFUN_INPUT_DIR = "examples"
+$env:MAKEFUN_OUTPUT_DIR = "out"
+node main.ts
+```
+
+示例结果写入 `out/demo/solution.txt`。
+
+## English
+
+A room-by-room Sokoban solver using push distance and state search to produce move sequences for single-door room layouts.
+
+### Run locally
+
+Use Node.js 22.18 or newer. Under `MAKEFUN_INPUT_DIR`, provide XSB levels as `<level-id>/level.txt`, set `MAKEFUN_OUTPUT_DIR`, and run `node main.ts`.
+
+Try the included example on macOS or Linux with `MAKEFUN_INPUT_DIR=examples MAKEFUN_OUTPUT_DIR=out node main.ts`. The output is `out/demo/solution.txt`. For PowerShell, see the example above.
+
+[make.fun 赛事 / Original bounty](https://make.fun/bounty/sokoban-solver-01-run-20261121)
+
+## 许可证 / License
+
+MIT. See [LICENSE](LICENSE).
+
